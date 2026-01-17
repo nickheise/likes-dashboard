@@ -1,0 +1,11 @@
+{
+  "buildCommand": "prisma generate && next build",
+  "installCommand": "npm install",
+  "env": {
+    "DATABASE_URL": "@database_url",
+    "NEXTAUTH_URL": "@nextauth_url",
+    "NEXTAUTH_SECRET": "@nextauth_secret",
+    "TWITTER_CLIENT_ID": "@twitter_client_id",
+    "TWITTER_CLIENT_SECRET": "@twitter_client_secret"
+  }
+}
